@@ -1,7 +1,7 @@
 {
-  "name": "Import Ecus5",
+  "name": "Export Ecus5",
   "projectId": "bdb79a43-3427-4368-bd72-35e20ebc1e91",
-  "description": "Tờ khai nhập khẩu",
+  "description": "Tờ khai xuất khẩu",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.2-preview]",
