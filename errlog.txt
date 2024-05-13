@@ -8098,3 +8098,491 @@ AppVer: 6.0.145
 AppDate: 28/03/2024
 Date/Time: 04/05/2024 9:23:34 AM
 ================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 10:51:36 PM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 10:51:40 PM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 10:51:42 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 10:51:43 PM
+Date/Time: 05-10-2024 10:51:43 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T22:51:43.0683993+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'bcf0aa15-6e38-4e97-bc90-d6280e4a1c80',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 10:51:43 PM
+Date/Time: 05-10-2024 10:51:43 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T22:51:43.0683993+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'bcf0aa15-6e38-4e97-bc90-d6280e4a1c80',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 10:51:43 PM
+Date/Time: 05-10-2024 10:51:43 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 10:51:44 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 10:52:44 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:15:05 PM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:15:09 PM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:15:11 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:15:12 PM
+Date/Time: 05-10-2024 11:15:12 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:15:12.3518242+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'70734fc9-18a5-4753-aa0b-7cc46591c8d8',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:15:12 PM
+Date/Time: 05-10-2024 11:15:12 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:15:12.3518242+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'70734fc9-18a5-4753-aa0b-7cc46591c8d8',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:15:12 PM
+Date/Time: 05-10-2024 11:15:12 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:15:13 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:16:13 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:18:20 PM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:18:23 PM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:18:25 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:18:26 PM
+Date/Time: 05-10-2024 11:18:26 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:18:26.4757085+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'80c54743-eb86-4279-a134-8277bf1b065c',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:18:26 PM
+Date/Time: 05-10-2024 11:18:26 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:18:26.4757085+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'80c54743-eb86-4279-a134-8277bf1b065c',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:18:28 PM
+Date/Time: 05-10-2024 11:18:28 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:18:29 PM
+================================================
+Title: TSDUtil\clsMyApp\isValide_an
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:20:26 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:27 PM
+Date/Time: 05-10-2024 11:20:27 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:20:27.3799063+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:27 PM
+Date/Time: 05-10-2024 11:20:27 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:20:27.3799063+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:27 PM
+Date/Time: 05-10-2024 11:20:27 PM
+================================================
+Title: TSDUtil\clsMyApp\isValide_V
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:20:27 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:28 PM
+Date/Time: 05-10-2024 11:20:28 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:20:28.2187858+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:28 PM
+Date/Time: 05-10-2024 11:20:28 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:20:28.2187858+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:20:28 PM
+Date/Time: 05-10-2024 11:20:28 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:21:29 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:21:59 PM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:22:02 PM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:22:04 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:22:05 PM
+Date/Time: 05-10-2024 11:22:05 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:22:05.2652953+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'10fcea6f-f861-45a6-906f-751d28d24e48',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:22:05 PM
+Date/Time: 05-10-2024 11:22:05 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:22:05.2652953+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'10fcea6f-f861-45a6-906f-751d28d24e48',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:22:05 PM
+Date/Time: 05-10-2024 11:22:05 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:22:06 PM
+================================================
+Title: TSDUtil\clsMyApp\isValide_an
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:24:52 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:53 PM
+Date/Time: 05-10-2024 11:24:53 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:24:53.8476593+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:53 PM
+Date/Time: 05-10-2024 11:24:53 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:24:53.8476593+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:53 PM
+Date/Time: 05-10-2024 11:24:53 PM
+================================================
+Title: TSDUtil\clsMyApp\isValide_V
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-10-2024 11:24:53 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:54 PM
+Date/Time: 05-10-2024 11:24:54 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-10T23:24:54.4389931+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:54 PM
+Date/Time: 05-10-2024 11:24:54 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-10T23:24:54.4389931+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='IS_NEW_TINTUC'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-10-2024 11:24:54 PM
+Date/Time: 05-10-2024 11:24:54 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/10/2024 11:25:06 PM
+================================================
+Title: clsBanQuyen_Confirm\XacNhanTTBanQuyenAll
+Message: Thành công
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:37:17 AM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:37:17 AM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:37:21 AM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:37:23 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:37:23 AM
+Date/Time: 05-11-2024 09:37:23 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-11T09:37:23.8500474+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'9c2fe9ba-6fbc-44fa-a48c-a2a637fcac3f',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:37:23 AM
+Date/Time: 05-11-2024 09:37:23 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-11T09:37:23.8500474+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"Insert into SYSACTIONLOG(ActionCode,Username,ActionTime,Description,SessionID,GhiChu,PCName) Values(N'DANG_NHAP',N'Root',getdate(),N'Đăng nhập',N'9c2fe9ba-6fbc-44fa-a48c-a2a637fcac3f',N'',N'DESKTOP-O88E7I7')##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'DESKTOP-O88E7I7' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_2300325309'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='2300325309' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:37:24 AM
+Date/Time: 05-11-2024 09:37:24 AM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/11/2024 9:37:25 AM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 5/11/2024 9:38:25 AM
+================================================
+Title: TSDUtil\clsMyApp\isValide_an
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:39:19 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:20 AM
+Date/Time: 05-11-2024 09:39:20 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-11T09:39:20.5883236+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:20 AM
+Date/Time: 05-11-2024 09:39:20 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-11T09:39:20.5883236+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:20 AM
+Date/Time: 05-11-2024 09:39:20 AM
+================================================
+Title: TSDUtil\clsMyApp\isValide_V
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , String , Form , String )
+AppVer: 6.0.145
+AppDate: 28/03/2024
+Date/Time: 05-11-2024 09:39:20 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:21 AM
+Date/Time: 05-11-2024 09:39:21 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-05-11T09:39:21.4193845+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:21 AM
+Date/Time: 05-11-2024 09:39:21 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-05-11T09:39:21.4193845+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.145","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 294\r\nMa_KH: 2300325309","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Pro","computerName":"DESKTOP-O88E7I7","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT ColumnExcel FROM dbo.SIMPORTS_EXCEL WHERE FormName = 'EDA' AND ColumnField = 'MIENTHUE_MA'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.145
+AppDate: 05-11-2024 09:39:21 AM
+Date/Time: 05-11-2024 09:39:21 AM
+================================================
